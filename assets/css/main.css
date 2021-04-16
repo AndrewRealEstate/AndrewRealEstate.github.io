@@ -1755,6 +1755,7 @@
 		font-size: 1.5rem;
 		display: inline-block;
 		padding-left: 1em;
+		padding-top: 0.4em;
 		font-family: 'Playfair Display', serif;
 		color: #fff !important;
 		text-decoration: none;
@@ -8546,7 +8547,7 @@
 						display: inline-block;
 						height: 2em;
 						line-height: 1.95em;
-						padding: 0 1em;
+						padding: 0 0.5em;
 					}
 
 					#header nav > ul > li a:not(.button) {
