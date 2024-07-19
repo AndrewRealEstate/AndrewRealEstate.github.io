@@ -3319,7 +3319,7 @@
 				-moz-object-position: center;
 				-webkit-object-position: center;
 				-ms-object-position: center;
-				object-position: center;
+				object-position: top;
 				display: block;
 				position: absolute;
 				top: 0;
@@ -3450,7 +3450,7 @@
 			-moz-object-position: left;
 			-webkit-object-position: left;
 			-ms-object-position: left;
-			object-position: left;
+			object-position: center;
 		}
 
 		.banner.style1.image-position-right .image img {
@@ -3458,6 +3458,13 @@
 			-webkit-object-position: right;
 			-ms-object-position: right;
 			object-position: right;
+		}
+
+		.banner.style1.center .image img {
+			-moz-object-position: top;
+			-webkit-object-position: top;
+			-ms-object-position: top;
+			object-position: top;
 		}
 
 /* Banner (style2) */
